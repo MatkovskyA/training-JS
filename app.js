@@ -37,17 +37,42 @@
 
 		// Задание 5
 
+// let depositeAmount = 1000;    // начальные вложения
+// const ANUAL_PERCENT = 1.05;      // годовой процент
 
+
+// for (let yearsValue = 1; yearsValue < 21; yearsValue++) {
+// 	depositeAmount = depositeAmount * ANUAL_PERCENT;
+// 	depositeAmount = Math.trunc(depositeAmount);
+// }
+// console.log(depositeAmount);
 
 		// Задание 6
 
-// let counter = 1;
 
-// for (let counter = 1; counter <= 100; counter++) {
-// 	if (counter % 2 === 0) {
-// 		console.log(counter);
+// for (let i = 1; i <= 100; i++) {
+// 	if (i % 2 === 0) {
+// 		console.log(i);
 // 	}
 // }
+
+
+		// Задание 7
+
+const GOAL = 1000000;
+const ANUAL_PERCENT = 1.05;      // годовой процент
+
+let depositeAmount = 1000;    // начальные вложения
+let year = 1;
+
+ while (depositeAmount < GOAL) {
+	depositeAmount = depositeAmount * ANUAL_PERCENT;
+	year++;
+ };
+
+ console.log(year);
+
+
 
 // while
 // let counter = 1;
