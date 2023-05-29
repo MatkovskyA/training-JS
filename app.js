@@ -1,13 +1,102 @@
-let a = 1;
-while (a < 3) {
-	console.log(a);
-	a++;
-};
+		// Задание 1
 
-let b = 2;
-do {
-    b++;
-} while (b > 1);
+// let counter = -51;
+
+// while (counter <= 49) {
+// 	counter++;
+// 	console.log(counter);
+// };
+
+
+		// Задание 2
+
+// let counter = 11;
+
+// while (counter >= 1) {
+// 	--counter;
+// 	console.log(counter);
+// }
+
+
+		//   Задание 3
+
+// for (let counter = 1; counter <= 100; counter++) {
+// 	if (counter % 7 === 0) {
+// 		console.log(counter);
+// 	};
+// }
+
+		// Задание 4
+
+// for (let counter1 = 1; counter1 <= 10; counter1++) {
+// 	for (let counter2 = 1; counter2 <= 10; counter2++) {
+// 		 result = counter1 * counter2;
+// 		 console.log(`${counter1} * ${counter2} = ${result}`);
+// 		}
+// 	}
+
+		// Задание 5
+
+
+
+		// Задание 6
+
+// let counter = 1;
+
+// for (let counter = 1; counter <= 100; counter++) {
+// 	if (counter % 2 === 0) {
+// 		console.log(counter);
+// 	}
+// }
+
+// while
+// let counter = 1;
+
+// while (counter <= 30) {
+	// 	тело цикла - код  в скобках
+	// итерации цикла - круг выполнения цикла
+// 	console.log(counter);
+// 	counter++;
+// }
+
+// do while
+
+// let counter = 12;
+// do {
+// 	console.log(counter);
+// 	counter++
+// } while (counter <= 11);
+
+
+// ЦИКЛ for - более подробно описывает условия и настройки, которые необходимо сделать, чтоб цикл FOR  работал
+// Состоит из трех частей в скобках - конфигурация цикла
+// Пример вывода нечетных чисел до 10
+
+
+// for (let counter = 1; counter <= 10; counter++) {
+// 	if (counter % 2 === 1) {
+// 	console.log(counter); // тело цикла. Тут можно использоваьт любые другие синтаксические конструкции. Любую логику. 
+// }
+// }
+
+
+// Пропуск итерации через continue
+// for (let counter = 1; counter <= 10; counter++) {
+// 	if (counter % 2 === 0) {
+// 		continue; // тело цикла. Тут можно использоваьт любые другие синтаксические конструкции. Любую логику. 
+// }
+// console.log(counter)
+// }
+
+
+// BREAK
+
+// for (let counter = 1; counter <= 100; counter++) {
+// 	if (counter === 70) {
+// 		break; // тело цикла. Тут можно использоваьт любые другие синтаксические конструкции. Любую логику. 
+// }
+// console.log(counter)
+// }
 
 // Задание 1 --------------------------
 // const TYPE_OF_NUMBER = 'number';
