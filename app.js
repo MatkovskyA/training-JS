@@ -1,4 +1,93 @@
-		// Задание 1
+// Задание 1
+// console.log(multiple(2, 3));
+
+// function multiple(a, b) {
+// 	return a * b;
+// }
+
+// Задание 2
+// const day = 31;
+// let month = 5;
+// const year = 2023;
+
+// console.log(buildDate(day, month, year));
+
+// function buildDate(day, month, year) {
+// 	return `${day}/${month}/${year}`;
+// }
+
+// Задание 3
+// let adultAge = 19;
+
+// console.log(isAdult(adultAge));
+
+// function isAdult(age) {
+// 	return age >= 18;
+// }
+
+// Задание 4
+// const firstMonth = 1;
+// const secondMonth = 2;
+// const thirdMonth = 3;
+// const fourthMonth = 4;
+// const fifthMonth = 5;
+// const sixthMonth = 6;
+// const seventhMonth = 7;
+// const eighthMonth = 8;
+// const ninthMonth = 9;
+// const tenthMonth = 10;
+// const eleventhMonth = 11;
+// const twelfthMonth = 12;
+
+// let currentMonth = 1
+
+
+
+// switch (currentMonth) {
+// 	case 1:
+		
+// 		break;
+
+// 	default:
+// 		break;
+// }
+
+
+
+// function getMonthByNumber(monthNumber) {
+// 	return month;
+// }
+
+
+// console.log(sum(2, 5));
+
+// function sum(a, b) {
+// 	return a + b;
+// }
+
+// const DAY = 14;
+// const MOUNTH = 'september';
+// const YEAR = 1991;
+// const FULL_DATE = myBirthDay(DAY, MOUNTH, YEAR)
+// console.log(FULL_DATE);
+
+// function myBirthDay(DAY, MOUNTH, YEAR) {
+// 	return `${DAY} ${MOUNTH} ${YEAR}`;
+// }
+
+// const myAge = 17;
+// const canIGoDance = isAdult(myAge);
+
+// console.log(canIGoDance);
+
+// function isAdult(age) {
+// 	return age < 18;
+// }
+
+
+
+// ___________________________________________________
+// Задание 1
 
 // let counter = -51;
 
@@ -59,20 +148,20 @@
 
 		// Задание 7
 
-const GOAL = 1000000;
-const ANUAL_PERCENT = 1.05;      // годовой процент
+// const GOAL = 1000000;
+// const ANUAL_PERCENT = 1.05;      // годовой процент
 
-let depositeAmount = 1000;    // начальные вложения
-let year = 1;
+// let depositeAmount = 1000;    // начальные вложения
+// let year = 1;
 
- while (depositeAmount < GOAL) {
-	depositeAmount = depositeAmount * ANUAL_PERCENT;
-	year++;
- };
+//  while (depositeAmount < GOAL) {
+// 	depositeAmount = depositeAmount * ANUAL_PERCENT;
+// 	year++;
+//  };
 
- console.log(year);
+//  console.log(year); //143 year
 
-
+// _____________________________________________
 
 // while
 // let counter = 1;
