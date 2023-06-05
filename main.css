@@ -1,5 +1,14 @@
-.out1 {
+body {
+    box-sizing: border-box;
+}
+
+.out-1, .out-2 {
     width: 100px;
-    height: 20px;
-    color: orangered;
+    height: 40px;
+    background-color: orangered;
+    text-align: center;
+}
+
+.out-1 {
+    margin-bottom: 10px;
 }

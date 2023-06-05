@@ -25,32 +25,8 @@
 // 	return age >= 18;
 // }
 
-// Задание 4
-// const firstMonth = 1;
-// const secondMonth = 2;
-// const thirdMonth = 3;
-// const fourthMonth = 4;
-// const fifthMonth = 5;
-// const sixthMonth = 6;
-// const seventhMonth = 7;
-// const eighthMonth = 8;
-// const ninthMonth = 9;
-// const tenthMonth = 10;
-// const eleventhMonth = 11;
-// const twelfthMonth = 12;
+//   Задание 4
 
-// let currentMonth = 1
-
-
-
-// switch (currentMonth) {
-// 	case 1:
-		
-// 		break;
-
-// 	default:
-// 		break;
-// }
 
 
 
