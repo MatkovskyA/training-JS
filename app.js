@@ -2,28 +2,126 @@
 // console.log(multiple(2, 3));
 
 // function multiple(a, b) {
-// 	return a * b;
-// }
+// 	let c = a * b;
+// 	return c;
+//  }
+
+
+
 
 // Задание 2
-// const day = 31;
-// let month = 5;
-// const year = 2023;
-
-// console.log(buildDate(day, month, year));
+// buildDate(6, 7, 2023);
 
 // function buildDate(day, month, year) {
-// 	return `${day}/${month}/${year}`;
-// }
-
-// Задание 3
-// let adultAge = 19;
-
-// console.log(isAdult(adultAge));
+// 		return `${day}/${month}/${year}`;
+// 	}
+	
+// Задание 3. 
+// isAdult(19)
 
 // function isAdult(age) {
-// 	return age >= 18;
+// 	if (age >= 18) {
+// 	return true;
+// 	}
+// 	if (age < 18) {
+// 	return false;
+// 	}
 // }
+// console.log(isAdult(17));
+
+// задание 4.
+
+// getMonthByNumber(4);
+
+// function getMonthByNumber(monthNumber) {
+// 	switch (monthNumber) {
+// 		case 1:
+// 			return 'Январь';
+// 			break;
+// 		case 2:
+// 			return 'Февраль';
+// 			break;
+// 		case 3:
+// 			return 'Март';
+// 			break;
+// 		case 4:
+// 			return 'Апрель';
+// 			break;
+// 		case 5:
+// 			return 'Май';
+// 			break;
+// 		case 6:
+// 			return 'Июнь';
+// 			break;	
+// 		case 7:
+// 			return 'Июль';
+// 			break;
+// 		case 8:
+// 			return 'Август';
+// 			break;
+// 		case 9:
+// 			return 'Сентябрь';
+// 			break;
+// 		case 10:
+// 			return 'Октябрь';
+// 			break;
+// 		case 11:
+// 			return 'Ноябрь';
+// 			break;
+// 		case 12:
+// 			return 'Декабрь';
+// 			break;					
+// 		default:
+// 			return "Внесите данные";
+// 			break;
+// 	}
+	
+// }
+// console.log(getMonthByNumber(4));
+
+// Задание 5.
+let usdRate = 70;
+let eurRate = 80;
+let kztRate = 60;
+let aedRate = 50;
+let currency;
+
+function convertRub(valueRub, currency) {
+	switch (currency) {
+		case 'USD':
+			return valueRub * usdRate;
+			break;
+		case 'EUR':
+			return valueRub * eurRate;
+			break;	
+		case 'KZT':
+			return valueRub * eurRate;
+			break;
+		case 'AED':
+			return valueRub * eurRate;
+			break;		
+		default:
+			return 'Неизвестная валюта';
+			break;
+	}
+}
+
+
+
+console.log(convertRub(10, 'EUR'));
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //   Задание 4
 

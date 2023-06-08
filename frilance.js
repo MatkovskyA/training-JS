@@ -32,3 +32,9 @@
 // let userCoun = 0;
 // let newUserCount = userCoun++;
 // console.log(!false && 11 || 18 && !'');
+
+// let num = 0;
+// while (num <= 5) {
+//     console.log(num);
+//     num++;    
+// }
