@@ -1,132 +1,24 @@
-// Задание 1
-// console.log(multiple(2, 3));
 
-// function multiple(a, b) {
-// 	let c = a * b;
-// 	return c;
-//  }
+// const isMarried = confirm('Эй, Красотка, ты замужем??');
+// const marriedAge = prompt('Как давно вы в браке?');
 
 
-
-
-// Задание 2
-// buildDate(6, 7, 2023);
-
-// function buildDate(day, month, year) {
-// 		return `${day}/${month}/${year}`;
-// 	}
-	
-// Задание 3. 
-// isAdult(19)
-
-// function isAdult(age) {
-// 	if (age >= 18) {
-// 	return true;
-// 	}
-// 	if (age < 18) {
-// 	return false;
-// 	}
+// if (marriedAge) {
+// 	alert('Да, у меня классный муж!');
+// } else {
+// 	alert('Нет, еще в поиске');
 // }
-// console.log(isAdult(17));
-
-// задание 4.
-
-// getMonthByNumber(4);
-
-// function getMonthByNumber(monthNumber) {
-// 	switch (monthNumber) {
-// 		case 1:
-// 			return 'Январь';
-// 			break;
-// 		case 2:
-// 			return 'Февраль';
-// 			break;
-// 		case 3:
-// 			return 'Март';
-// 			break;
-// 		case 4:
-// 			return 'Апрель';
-// 			break;
-// 		case 5:
-// 			return 'Май';
-// 			break;
-// 		case 6:
-// 			return 'Июнь';
-// 			break;	
-// 		case 7:
-// 			return 'Июль';
-// 			break;
-// 		case 8:
-// 			return 'Август';
-// 			break;
-// 		case 9:
-// 			return 'Сентябрь';
-// 			break;
-// 		case 10:
-// 			return 'Октябрь';
-// 			break;
-// 		case 11:
-// 			return 'Ноябрь';
-// 			break;
-// 		case 12:
-// 			return 'Декабрь';
-// 			break;					
-// 		default:
-// 			return "Внесите данные";
-// 			break;
-// 	}
-	
-// }
-// console.log(getMonthByNumber(4));
-
-// Задание 5.
-let usdRate = 70;
-let eurRate = 80;
-let kztRate = 60;
-let aedRate = 50;
-let currency;
-
-function convertRub(valueRub, currency) {
-	switch (currency) {
-		case 'USD':
-			return valueRub * usdRate;
-			break;
-		case 'EUR':
-			return valueRub * eurRate;
-			break;	
-		case 'KZT':
-			return valueRub * eurRate;
-			break;
-		case 'AED':
-			return valueRub * eurRate;
-			break;		
-		default:
-			return 'Неизвестная валюта';
-			break;
-	}
-}
 
 
-
-console.log(convertRub(10, 'EUR'));
+// _________________________________
 
 
 
 
 
-
-
-
-
-
-
-
-
+// console.log(convertRub(10, 'EUR'));
 
 //   Задание 4
-
-
-
 
 // function getMonthByNumber(monthNumber) {
 // 	return month;
@@ -138,27 +30,6 @@ console.log(convertRub(10, 'EUR'));
 // function sum(a, b) {
 // 	return a + b;
 // }
-
-// const DAY = 14;
-// const MOUNTH = 'september';
-// const YEAR = 1991;
-// const FULL_DATE = myBirthDay(DAY, MOUNTH, YEAR)
-// console.log(FULL_DATE);
-
-// function myBirthDay(DAY, MOUNTH, YEAR) {
-// 	return `${DAY} ${MOUNTH} ${YEAR}`;
-// }
-
-// const myAge = 17;
-// const canIGoDance = isAdult(myAge);
-
-// console.log(canIGoDance);
-
-// function isAdult(age) {
-// 	return age < 18;
-// }
-
-
 
 // ___________________________________________________
 // Задание 1
