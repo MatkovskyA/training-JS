@@ -175,11 +175,12 @@
 
 
 // Задание 5 --------------------
+/* Напишите функцию createPerson(name, surname, age). Функция принимаем имя человека, фамилию и возраст. Функция возвращает объект с полями name, surname, age. */
 
 
-function createPerson(name, surname, age) {
+// function createPerson(name, surname, age) {
     
-}
+// }
 
 
 
@@ -187,14 +188,13 @@ function createPerson(name, surname, age) {
 
 
 
+// const person = {
+//     name: 'Anatoly',
+//     surname: 'Matkovsky',
+//     age: 31,
+//     createPerson: function() {
+//         return `${this.name} ${this.surname} ${this.age}`
+//     }
+// };
 
-const person = {
-    name: 'Anatoly',
-    surname: 'Matkovsky',
-    age: 31,
-    createPerson: function() {
-        return `${this.name} ${this.surname} ${this.age}`
-    }
-};
-
-console.log(person.createPerson());
+// console.log(person.createPerson());

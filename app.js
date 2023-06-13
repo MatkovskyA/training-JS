@@ -1,21 +1,95 @@
+//-------Практика ОП 7 урок - ЦИКЛЫ ----
 
-// const isMarried = confirm('Эй, Красотка, ты замужем??');
-// const marriedAge = prompt('Как давно вы в браке?');
+// задание 1
 
 
-// if (marriedAge) {
-// 	alert('Да, у меня классный муж!');
-// } else {
-// 	alert('Нет, еще в поиске');
+// for (let i = -50; i <= 50; i++) {
+// 	console.log(i);
+// }
+
+// задание 2
+
+// for (let i = 10; i >= 0; i--) {
+// 	console.log(i);
+// }
+
+// задание 3
+
+// for (let i = 1; i <= 100; i++) {
+// 	if (i % 7 !== 0) {
+// 		continue;
+// 	}
+// 	console.log(i);
+// }
+
+// задание 4
+
+for (let num1 = 1; num1 <= 10; num1++) {
+	for (let num2 = 1; num2 <= 10; num2++) {
+		let result = num1 *= num2;
+		console.log(`${num1} * ${num2} = ${result}`);
+	};
+	
+}
+
+
+
+
+// --------Практика ОП 9 урок ----------
+
+// function myFunc2() {
+// 	console.log('Hello from myFunc2');
+// }
+// const b = 4;
+
+// myFunc();
+
+// function myFunc() {
+// 	let a = 2;
+// 	console.log(a);
+// 	console.log(b);
+// 	myFunc2();
+// }
+
+// ------- Параметр и аргумент функции () ----
+//text - это параметр(Это название переменной которая будет внутри функции использоваться)
+// function log(text) { 
+// 	console.log(text);
+// }
+// Ниже я вызвал функцию log и в круглфе скобки задаю значение, которое принимает параметр. Если укажу - 2 - то text принимает это значение и выводится в консоль 2.
+// log('текст переданный в функцию');
+
+// function getSum(a, b) {
+// 	let result = a + b;
+
+// 	return result;
+// }
+
+// let sum = getSum(3, 7);
+// log(sum);
+
+//----- проверка значения функции ---
+
+// const ADULT_AGE = 18;
+
+// function isAdult(age) {
+// 	return age > ADULT_AGE;
+// }
+
+// let myAge = 31;
+
+// if (isAdult(myAge)) {
+// 	log('You are adult');
 // }
 
 
-// _________________________________
 
+// myname();
 
-
-
-
+// function myname() {
+// 	let i = 'Max'.toLowerCase();
+// 	console.log(i);
+// }
 // console.log(convertRub(10, 'EUR'));
 
 //   Задание 4
